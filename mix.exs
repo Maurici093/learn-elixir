@@ -1,4 +1,9 @@
 defmodule Cards.MixProject do
+  @moduledoc """
+    Provides methods for creating and handling a deck of cards
+      
+  """
+
   use Mix.Project
 
   def project do
@@ -23,6 +28,7 @@ defmodule Cards.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:ex_doc, "~> 0.19"}
     ]
   end
 end
